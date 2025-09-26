@@ -18,7 +18,7 @@ This project demonstrates basic **CRUD operations** (Create, Read, Update, Delet
 
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/lab1-todolist.git
+git clone https://github.com/slricta/act1-todolist
 ```
 
 ## Install backend dependencies
