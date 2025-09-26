@@ -53,6 +53,23 @@ cd ../todo-frontend
 npm start
 ```
 
+## API Documentation (Postman)
+
+We provided a Postman collection so you can easily test all API endpoints.
+
+1. Install [Postman](https://www.postman.com/downloads/).
+2. Import the collection file:
+   - Go to **File → Import** in Postman.
+   - Choose `docs/To Do List.postman_collection.json`.
+3. Run the requests (make sure your backend is running at `http://localhost:3000`).
+
+The collection includes:
+- `GET /tasks` → Fetch all tasks
+- `POST /tasks` → Create a new task
+- `PATCH /tasks/:id` → Update a task
+- `DELETE /tasks/:id` → Delete a task
+
+
 
 
 
