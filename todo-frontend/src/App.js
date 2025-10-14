@@ -10,8 +10,10 @@ function App() {
 
   // Sort: show incomplete first, completed last
   const sortTasks = (list) => {
+    // compare function for sorting
     return [...list].sort((a, b) => {
       if (a.completed === b.completed) return 0;
+      // shorthand if-else ? returnIfTrue : returnIfFalse
       return a.completed ? 1 : -1;
     });
   };
